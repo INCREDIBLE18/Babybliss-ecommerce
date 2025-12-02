@@ -32,30 +32,22 @@ const NotificationButton = () => {
       if ('serviceWorker' in navigator) {
         const registration = await navigator.serviceWorker.ready;
         await registration.showNotification(title, options);
-        console.log('✅ Notification shown via Service Worker');
         return true;
       }
-    } catch (error) {
-      console.warn('⚠️ Service worker notification failed, falling back:', error);
+    } catch {
+      // Service worker notification failed, falling back
     }
 
-    try {
-      const notification = new window.Notification(title, options);
-      console.log('✅ Notification shown via window.Notification');
-      notification.onclick = () => {
-        window.focus();
-        notification.close();
-      };
-      return true;
-    } catch (error) {
-      console.error('❌ Failed to create notification:', error);
-      throw error;
-    }
+    const notification = new window.Notification(title, options);
+    notification.onclick = () => {
+      window.focus();
+      notification.close();
+    };
+    return true;
   };
 
   const handleSendNotification = async () => {
     setIsLoading(true);
-    console.log('🔔 Notification button clicked!');
     
     try {
       // Check if notifications are supported
@@ -63,22 +55,16 @@ const NotificationButton = () => {
         alert('❌ This browser does not support notifications.');
         return;
       }
-
-      console.log('🔔 Current permission:', window.Notification.permission);
       
       let perm = window.Notification.permission;
       
       // Request permission if needed
       if (perm === 'default') {
-        console.log('🔔 Requesting notification permission...');
         perm = await window.Notification.requestPermission();
-        console.log('🔔 Permission granted:', perm);
         setPermission(perm);
       }
       
       if (perm === 'granted') {
-        console.log('🔔 Creating notification...');
-        
         // Random demo messages
         const messages = [
           { title: '🎉 BabyBliss Alert!', body: 'Flash Sale! 50% off on baby essentials! 🛍️' },
@@ -104,15 +90,12 @@ const NotificationButton = () => {
         toastTimeout.current = setTimeout(() => setInlineToast(null), 3500);
         
       } else if (perm === 'denied') {
-        console.log('❌ Notification permission denied');
         alert('❌ Notifications are blocked. Please:\n\n1. Click the lock/info icon in address bar\n2. Allow notifications for this site\n3. Refresh the page and try again');
       } else {
-        console.log('⚠️ Notification permission not granted:', perm);
         alert('⚠️ Please allow notifications when prompted and try again.');
       }
       
     } catch (error) {
-      console.error('❌ Notification error:', error);
       alert(`❌ Error: ${error.message}\n\nTry refreshing the page and allowing notifications.`);
     } finally {
       setIsLoading(false);

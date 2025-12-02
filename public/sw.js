@@ -86,7 +86,7 @@ self.addEventListener('push', (event) => {
   if (event.data) {
     try {
       notificationData = event.data.json();
-    } catch (e) {
+    } catch {
       notificationData.body = event.data.text();
     }
   }

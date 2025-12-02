@@ -1,7 +1,6 @@
 export const notificationService = {
   async requestPermission() {
     if (!('Notification' in window)) {
-      console.log('This browser does not support notifications');
       return 'denied';
     }
 
@@ -19,49 +18,37 @@ export const notificationService = {
 
   async showNotification(title, options = {}) {
     const permission = await this.requestPermission();
-    console.log('Notification permission:', permission);
 
     if (permission === 'granted') {
-      try {
-        // Always use direct Notification API for better debugging
-        const notification = new Notification(title, {
-          icon: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"%3E%3Crect width="64" height="64" fill="%23FF6B9D" rx="12"/%3E%3Ctext x="32" y="44" font-family="Arial" font-size="32" font-weight="bold" fill="white" text-anchor="middle"%3EBB%3C/text%3E%3C/svg%3E',
-          vibrate: [200, 100, 200],
-          tag: 'babybliss-notification',
-          requireInteraction: false,
-          ...options,
-        });
+      // Always use direct Notification API for better debugging
+      const notification = new Notification(title, {
+        icon: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"%3E%3Crect width="64" height="64" fill="%23FF6B9D" rx="12"/%3E%3Ctext x="32" y="44" font-family="Arial" font-size="32" font-weight="bold" fill="white" text-anchor="middle"%3EBB%3C/text%3E%3C/svg%3E',
+        vibrate: [200, 100, 200],
+        tag: 'babybliss-notification',
+        requireInteraction: false,
+        ...options,
+      });
 
-        console.log('Notification created:', notification);
+      notification.onclick = () => {
+        window.focus();
+        notification.close();
+      };
 
-        notification.onclick = () => {
-          console.log('Notification clicked');
-          window.focus();
-          notification.close();
-        };
+      notification.onshow = () => {
+        // Notification shown successfully
+      };
 
-        notification.onshow = () => {
-          console.log('Notification shown successfully');
-        };
+      notification.onerror = () => {
+        // Notification error occurred
+      };
 
-        notification.onerror = (error) => {
-          console.error('Notification error:', error);
-        };
-
-        return notification;
-      } catch (error) {
-        console.error('Failed to create notification:', error);
-        throw error;
-      }
+      return notification;
     } else {
-      console.log('Notification permission not granted');
       throw new Error('Notification permission not granted');
     }
   },
 
   async sendDemoNotification() {
-    console.log('sendDemoNotification called');
-    
     const messages = [
       {
         title: '🎉 Welcome to BabyBliss!',
@@ -82,7 +69,6 @@ export const notificationService = {
     ];
 
     const randomMessage = messages[Math.floor(Math.random() * messages.length)];
-    console.log('Selected message:', randomMessage);
     
     return await this.showNotification(randomMessage.title, {
       body: randomMessage.body,

@@ -1,13 +1,21 @@
 {
-  "name": "babybliss-temp",
+  "name": "babybliss-pwa",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "BabyBliss - Modern PWA E-Commerce for Baby Products",
+  "homepage": "https://babybliss-pwa.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/INCREDIBLE18/Babybliss-ecommerce.git"
+  },
+  "keywords": ["baby", "ecommerce", "pwa", "react", "vite"],
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "lint": "eslint . --fix",
+    "preview": "vite preview --port 4173",
+    "start": "npm run dev"
   },
   "dependencies": {
     "framer-motion": "^12.23.25",
