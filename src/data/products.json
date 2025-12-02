@@ -1,0 +1,1449 @@
+﻿{
+    "categories":  [
+                       {
+                           "id":  "baby-care",
+                           "name":  "Baby Care",
+                           "icon":  "Baby",
+                           "color":  "#FF6B9D"
+                       },
+                       {
+                           "id":  "baby-gear",
+                           "name":  "Baby Gear",
+                           "icon":  "ShoppingCart",
+                           "color":  "#89CFF0"
+                       },
+                       {
+                           "id":  "nursery",
+                           "name":  "Nursery",
+                           "icon":  "Home",
+                           "color":  "#98D8C8"
+                       },
+                       {
+                           "id":  "feeding",
+                           "name":  "Feeding",
+                           "icon":  "Coffee",
+                           "color":  "#FFD700"
+                       },
+                       {
+                           "id":  "clothing",
+                           "name":  "Clothing",
+                           "icon":  "Shirt",
+                           "color":  "#FFB6C1"
+                       },
+                       {
+                           "id":  "toys",
+                           "name":  "Toys",
+                           "icon":  "Sparkles",
+                           "color":  "#FF8EA3"
+                       },
+                       {
+                           "id":  "bath-time",
+                           "name":  "Bath Time",
+                           "icon":  "Droplet",
+                           "color":  "#89CFF0"
+                       },
+                       {
+                           "id":  "health-safety",
+                           "name":  "Health \u0026 Safety",
+                           "icon":  "Heart",
+                           "color":  "#FF6B9D"
+                       }
+                   ],
+    "products":  [
+                     {
+                         "id":  1,
+                         "name":  "Organic Cotton Diapers (Pack of 50)",
+                         "category":  "baby-care",
+                         "price":  1299,
+                         "originalPrice":  1599,
+                         "rating":  4.8,
+                         "reviews":  2456,
+                         "image":  "https://placehold.co/400x400/FF6B9D/FFF?text=Organic+Cotton+Diapers",
+                         "images":  [
+                                        "https://placehold.co/400x400/FF6B9D/FFF?text=Organic+Cotton+Diapers"
+                                    ],
+                         "description":  "Ultra-soft, hypoallergenic organic cotton diapers. Perfect for sensitive baby skin. Eco-friendly and biodegradable.",
+                         "features":  [
+                                          "100% Organic Cotton",
+                                          "Hypoallergenic",
+                                          "Ultra-Absorbent",
+                                          "Eco-Friendly"
+                                      ],
+                         "ageRange":  "0-12 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "Organic",
+                                        "Eco-Friendly",
+                                        "BPA-Free"
+                                    ],
+                         "brand":  "BabyBliss Essentials"
+                     },
+                     {
+                         "id":  2,
+                         "name":  "Premium Baby Stroller - All Terrain",
+                         "category":  "baby-gear",
+                         "price":  8999,
+                         "originalPrice":  12999,
+                         "rating":  4.9,
+                         "reviews":  1834,
+                         "image":  "https://placehold.co/400x400/89CFF0/FFF?text=Premium+Baby+Stroller",
+                         "images":  [
+                                        "https://placehold.co/400x400/89CFF0/FFF?text=Premium+Baby+Stroller"
+                                    ],
+                         "description":  "Lightweight yet sturdy all-terrain stroller with 360Â° rotating wheels. One-hand fold mechanism and adjustable canopy.",
+                         "features":  [
+                                          "All-Terrain Wheels",
+                                          "One-Hand Fold",
+                                          "5-Point Safety Harness",
+                                          "Adjustable Canopy"
+                                      ],
+                         "ageRange":  "0-36 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "Safety Certified",
+                                        "Award Winner"
+                                    ],
+                         "brand":  "StrollEase"
+                     },
+                     {
+                         "id":  3,
+                         "name":  "Convertible Baby Crib with Mattress",
+                         "category":  "nursery",
+                         "price":  15999,
+                         "originalPrice":  19999,
+                         "rating":  4.7,
+                         "reviews":  987,
+                         "image":  "https://placehold.co/400x400/FFD700/333?text=Convertible+Baby+Crib",
+                         "images":  [
+                                        "https://placehold.co/400x400/FFD700/333?text=Convertible+Baby+Crib"
+                                    ],
+                         "description":  "4-in-1 convertible crib that grows with your baby. Includes premium organic mattress. Solid wood construction.",
+                         "features":  [
+                                          "4-in-1 Convertible",
+                                          "Solid Wood",
+                                          "Non-Toxic Finish",
+                                          "Adjustable Height"
+                                      ],
+                         "ageRange":  "0-60 months",
+                         "inStock":  true,
+                         "bestseller":  false,
+                         "badges":  [
+                                        "Organic",
+                                        "Safety Certified",
+                                        "Non-Toxic"
+                                    ],
+                         "brand":  "DreamNest"
+                     },
+                     {
+                         "id":  4,
+                         "name":  "Anti-Colic Baby Bottles Set (6-Pack)",
+                         "category":  "feeding",
+                         "price":  1899,
+                         "originalPrice":  2499,
+                         "rating":  4.6,
+                         "reviews":  3245,
+                         "image":  "https://placehold.co/400x400/98D8C8/FFF?text=Anti-Colic+Baby+Bottles",
+                         "images":  [
+                                        "https://placehold.co/400x400/98D8C8/FFF?text=Anti-Colic+Baby+Bottles"
+                                    ],
+                         "description":  "BPA-free anti-colic bottles with advanced venting system. Reduces gas, burping and spit-up. Wide neck for easy cleaning.",
+                         "features":  [
+                                          "Anti-Colic System",
+                                          "BPA-Free",
+                                          "Easy to Clean",
+                                          "Multiple Flow Nipples"
+                                      ],
+                         "ageRange":  "0-12 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "BPA-Free",
+                                        "Pediatrician Recommended"
+                                    ],
+                         "brand":  "FeedWell"
+                     },
+                     {
+                         "id":  5,
+                         "name":  "Organic Cotton Baby Romper Set (3-Pack)",
+                         "category":  "clothing",
+                         "price":  999,
+                         "originalPrice":  1299,
+                         "rating":  4.5,
+                         "reviews":  1567,
+                         "image":  "https://placehold.co/400x400/FF6B9D/FFF?text=Organic+Cotton+Baby",
+                         "images":  [
+                                        "https://placehold.co/400x400/FF6B9D/FFF?text=Organic+Cotton+Baby"
+                                    ],
+                         "description":  "Soft, breathable organic cotton rompers. Snap button closure for easy diaper changes. Available in adorable prints.",
+                         "features":  [
+                                          "100% Organic Cotton",
+                                          "Snap Buttons",
+                                          "Breathable Fabric",
+                                          "Machine Washable"
+                                      ],
+                         "ageRange":  "0-12 months",
+                         "inStock":  true,
+                         "bestseller":  false,
+                         "badges":  [
+                                        "Organic",
+                                        "GOTS Certified"
+                                    ],
+                         "brand":  "TinyThreads"
+                     },
+                     {
+                         "id":  6,
+                         "name":  "Interactive Musical Play Mat",
+                         "category":  "toys",
+                         "price":  2499,
+                         "originalPrice":  3199,
+                         "rating":  4.8,
+                         "reviews":  2134,
+                         "image":  "https://placehold.co/400x400/89CFF0/FFF?text=Interactive+Musical+Play",
+                         "images":  [
+                                        "https://placehold.co/400x400/89CFF0/FFF?text=Interactive+Musical+Play"
+                                    ],
+                         "description":  "Colorful play mat with music, lights, and hanging toys. Promotes sensory development and tummy time.",
+                         "features":  [
+                                          "Musical \u0026 Light Effects",
+                                          "Hanging Toys",
+                                          "Machine Washable",
+                                          "Foldable Design"
+                                      ],
+                         "ageRange":  "0-12 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "Educational",
+                                        "BPA-Free"
+                                    ],
+                         "brand":  "PlayTime"
+                     },
+                     {
+                         "id":  7,
+                         "name":  "Baby Bath Tub with Temperature Sensor",
+                         "category":  "bath-time",
+                         "price":  1599,
+                         "originalPrice":  1999,
+                         "rating":  4.7,
+                         "reviews":  1245,
+                         "image":  "https://placehold.co/400x400/FFD700/333?text=Baby+Bath+Tub",
+                         "images":  [
+                                        "https://placehold.co/400x400/FFD700/333?text=Baby+Bath+Tub"
+                                    ],
+                         "description":  "Ergonomic baby bathtub with built-in temperature sensor. Non-slip surface and newborn support included.",
+                         "features":  [
+                                          "Temperature Sensor",
+                                          "Non-Slip Surface",
+                                          "Newborn Support",
+                                          "Compact Design"
+                                      ],
+                         "ageRange":  "0-24 months",
+                         "inStock":  true,
+                         "bestseller":  false,
+                         "badges":  [
+                                        "Safety Certified",
+                                        "BPA-Free"
+                                    ],
+                         "brand":  "SplashSafe"
+                     },
+                     {
+                         "id":  8,
+                         "name":  "Digital Baby Thermometer (Forehead \u0026 Ear)",
+                         "category":  "health-safety",
+                         "price":  899,
+                         "originalPrice":  1199,
+                         "rating":  4.6,
+                         "reviews":  3456,
+                         "image":  "https://placehold.co/400x400/98D8C8/FFF?text=Digital+Baby+Thermometer",
+                         "images":  [
+                                        "https://placehold.co/400x400/98D8C8/FFF?text=Digital+Baby+Thermometer"
+                                    ],
+                         "description":  "Fast, accurate temperature readings in 1 second. Dual mode for forehead and ear. Fever alarm and memory recall.",
+                         "features":  [
+                                          "1-Second Reading",
+                                          "Dual Mode",
+                                          "Fever Alarm",
+                                          "Memory Function"
+                                      ],
+                         "ageRange":  "0-60 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "FDA Approved",
+                                        "Pediatrician Recommended"
+                                    ],
+                         "brand":  "HealthFirst"
+                     },
+                     {
+                         "id":  9,
+                         "name":  "Electric Breast Pump with Storage Bags",
+                         "category":  "feeding",
+                         "price":  5499,
+                         "originalPrice":  7999,
+                         "rating":  4.9,
+                         "reviews":  2789,
+                         "image":  "https://placehold.co/400x400/FF6B9D/FFF?text=Electric+Breast+Pump",
+                         "images":  [
+                                        "https://placehold.co/400x400/FF6B9D/FFF?text=Electric+Breast+Pump"
+                                    ],
+                         "description":  "Double electric breast pump with adjustable suction levels. Quiet operation. Includes 20 storage bags.",
+                         "features":  [
+                                          "Double Pump",
+                                          "Adjustable Suction",
+                                          "Quiet Motor",
+                                          "BPA-Free"
+                                      ],
+                         "ageRange":  "0-24 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "BPA-Free",
+                                        "Hospital Grade"
+                                    ],
+                         "brand":  "MamaCare"
+                     },
+                     {
+                         "id":  10,
+                         "name":  "Baby Monitor with Camera \u0026 Audio",
+                         "category":  "nursery",
+                         "price":  6999,
+                         "originalPrice":  8999,
+                         "rating":  4.8,
+                         "reviews":  1876,
+                         "image":  "https://placehold.co/400x400/89CFF0/FFF?text=Baby+Monitor+with",
+                         "images":  [
+                                        "https://placehold.co/400x400/89CFF0/FFF?text=Baby+Monitor+with"
+                                    ],
+                         "description":  "HD video baby monitor with night vision, two-way audio, and temperature monitoring. Smartphone app included.",
+                         "features":  [
+                                          "HD Video",
+                                          "Night Vision",
+                                          "Two-Way Audio",
+                                          "Temperature Monitor"
+                                      ],
+                         "ageRange":  "0-60 months",
+                         "inStock":  true,
+                         "bestseller":  false,
+                         "badges":  [
+                                        "Smart Device",
+                                        "WiFi Enabled"
+                                    ],
+                         "brand":  "BabyCam Pro"
+                     },
+                     {
+                         "id":  11,
+                         "name":  "Bamboo Baby Wipes (Pack of 12)",
+                         "category":  "baby-care",
+                         "price":  699,
+                         "originalPrice":  899,
+                         "rating":  4.7,
+                         "reviews":  4567,
+                         "image":  "https://placehold.co/400x400/FFD700/333?text=Bamboo+Baby+Wipes",
+                         "images":  [
+                                        "https://placehold.co/400x400/FFD700/333?text=Bamboo+Baby+Wipes"
+                                    ],
+                         "description":  "Biodegradable bamboo baby wipes. Unscented, alcohol-free, and dermatologically tested. 99.5% water.",
+                         "features":  [
+                                          "99.5% Water",
+                                          "Biodegradable",
+                                          "Unscented",
+                                          "Dermatologically Tested"
+                                      ],
+                         "ageRange":  "0-36 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "Eco-Friendly",
+                                        "Organic",
+                                        "Sensitive Skin"
+                                    ],
+                         "brand":  "EcoWipes"
+                     },
+                     {
+                         "id":  12,
+                         "name":  "Baby Car Seat - Rear Facing (0-18 months)",
+                         "category":  "baby-gear",
+                         "price":  9999,
+                         "originalPrice":  13999,
+                         "rating":  4.9,
+                         "reviews":  2345,
+                         "image":  "https://placehold.co/400x400/98D8C8/FFF?text=Baby+Car+Seat",
+                         "images":  [
+                                        "https://placehold.co/400x400/98D8C8/FFF?text=Baby+Car+Seat"
+                                    ],
+                         "description":  "Premium rear-facing car seat with advanced safety features. Side-impact protection and energy-absorbing foam.",
+                         "features":  [
+                                          "Side Impact Protection",
+                                          "5-Point Harness",
+                                          "Easy Installation",
+                                          "Washable Cover"
+                                      ],
+                         "ageRange":  "0-18 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "Safety Certified",
+                                        "Crash Tested"
+                                    ],
+                         "brand":  "SafeRide"
+                     },
+                     {
+                         "id":  13,
+                         "name":  "Wooden Crib Mobile with Music Box",
+                         "category":  "nursery",
+                         "price":  2199,
+                         "originalPrice":  2799,
+                         "rating":  4.6,
+                         "reviews":  876,
+                         "image":  "https://placehold.co/400x400/FF6B9D/FFF?text=Wooden+Crib+Mobile",
+                         "images":  [
+                                        "https://placehold.co/400x400/FF6B9D/FFF?text=Wooden+Crib+Mobile"
+                                    ],
+                         "description":  "Handcrafted wooden mobile with soft plush toys. Built-in music box plays soothing lullabies.",
+                         "features":  [
+                                          "Handcrafted Wood",
+                                          "Music Box",
+                                          "Soft Plush Toys",
+                                          "Adjustable Height"
+                                      ],
+                         "ageRange":  "0-12 months",
+                         "inStock":  true,
+                         "bestseller":  false,
+                         "badges":  [
+                                        "Handmade",
+                                        "Non-Toxic"
+                                    ],
+                         "brand":  "WoodWonders"
+                     },
+                     {
+                         "id":  14,
+                         "name":  "Silicone Baby Feeding Set (Bowl, Plate, Spoon)",
+                         "category":  "feeding",
+                         "price":  1299,
+                         "originalPrice":  1599,
+                         "rating":  4.8,
+                         "reviews":  2134,
+                         "image":  "https://placehold.co/400x400/89CFF0/FFF?text=Silicone+Baby+Feeding",
+                         "images":  [
+                                        "https://placehold.co/400x400/89CFF0/FFF?text=Silicone+Baby+Feeding"
+                                    ],
+                         "description":  "Food-grade silicone feeding set with suction base. Microwave and dishwasher safe. Available in pastel colors.",
+                         "features":  [
+                                          "Food-Grade Silicone",
+                                          "Suction Base",
+                                          "Microwave Safe",
+                                          "BPA-Free"
+                                      ],
+                         "ageRange":  "6-24 months",
+                         "inStock":  true,
+                         "bestseller":  false,
+                         "badges":  [
+                                        "BPA-Free",
+                                        "FDA Approved"
+                                    ],
+                         "brand":  "TinyMeals"
+                     },
+                     {
+                         "id":  15,
+                         "name":  "Winter Baby Snowsuit with Hood",
+                         "category":  "clothing",
+                         "price":  1799,
+                         "originalPrice":  2299,
+                         "rating":  4.7,
+                         "reviews":  1234,
+                         "image":  "https://placehold.co/400x400/FFD700/333?text=Winter+Baby+Snowsuit",
+                         "images":  [
+                                        "https://placehold.co/400x400/FFD700/333?text=Winter+Baby+Snowsuit"
+                                    ],
+                         "description":  "Warm and cozy snowsuit with detachable hood. Water-resistant outer layer. Soft fleece lining.",
+                         "features":  [
+                                          "Water Resistant",
+                                          "Fleece Lined",
+                                          "Detachable Hood",
+                                          "Easy Zip"
+                                      ],
+                         "ageRange":  "0-24 months",
+                         "inStock":  true,
+                         "bestseller":  false,
+                         "badges":  [
+                                        "Winter Collection"
+                                    ],
+                         "brand":  "CozyKids"
+                     },
+                     {
+                         "id":  16,
+                         "name":  "Soft Plush Teddy Bear (Large)",
+                         "category":  "toys",
+                         "price":  1499,
+                         "originalPrice":  1899,
+                         "rating":  4.9,
+                         "reviews":  3456,
+                         "image":  "https://placehold.co/400x400/98D8C8/FFF?text=Soft+Plush+Teddy",
+                         "images":  [
+                                        "https://placehold.co/400x400/98D8C8/FFF?text=Soft+Plush+Teddy"
+                                    ],
+                         "description":  "Ultra-soft teddy bear made from hypoallergenic materials. Perfect cuddle companion. Machine washable.",
+                         "features":  [
+                                          "Hypoallergenic",
+                                          "Machine Washable",
+                                          "Soft \u0026 Cuddly",
+                                          "Safety Tested"
+                                      ],
+                         "ageRange":  "0-60 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "BPA-Free",
+                                        "Safety Certified"
+                                    ],
+                         "brand":  "SnugglePals"
+                     },
+                     {
+                         "id":  17,
+                         "name":  "Hooded Baby Towel Set (2-Pack)",
+                         "category":  "bath-time",
+                         "price":  899,
+                         "originalPrice":  1199,
+                         "rating":  4.6,
+                         "reviews":  1987,
+                         "image":  "https://placehold.co/400x400/FF6B9D/FFF?text=Hooded+Baby+Towel",
+                         "images":  [
+                                        "https://placehold.co/400x400/FF6B9D/FFF?text=Hooded+Baby+Towel"
+                                    ],
+                         "description":  "Super absorbent hooded towels made from organic bamboo. Extra soft and gentle on baby\u0027s skin.",
+                         "features":  [
+                                          "Organic Bamboo",
+                                          "Hooded Design",
+                                          "Ultra Absorbent",
+                                          "Quick Dry"
+                                      ],
+                         "ageRange":  "0-36 months",
+                         "inStock":  true,
+                         "bestseller":  false,
+                         "badges":  [
+                                        "Organic",
+                                        "Eco-Friendly"
+                                    ],
+                         "brand":  "BathBuddies"
+                     },
+                     {
+                         "id":  18,
+                         "name":  "Baby First Aid Kit (45 Pieces)",
+                         "category":  "health-safety",
+                         "price":  1299,
+                         "originalPrice":  1699,
+                         "rating":  4.8,
+                         "reviews":  2456,
+                         "image":  "https://placehold.co/400x400/89CFF0/FFF?text=Baby+First+Aid",
+                         "images":  [
+                                        "https://placehold.co/400x400/89CFF0/FFF?text=Baby+First+Aid"
+                                    ],
+                         "description":  "Comprehensive first aid kit with baby-specific items. Includes thermometer, nasal aspirator, and more.",
+                         "features":  [
+                                          "45 Pieces",
+                                          "Baby Specific",
+                                          "Compact Case",
+                                          "Travel Friendly"
+                                      ],
+                         "ageRange":  "0-36 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "Pediatrician Recommended"
+                                    ],
+                         "brand":  "SafetyFirst"
+                     },
+                     {
+                         "id":  19,
+                         "name":  "Baby Lotion \u0026 Shampoo Gift Set",
+                         "category":  "baby-care",
+                         "price":  999,
+                         "originalPrice":  1299,
+                         "rating":  4.7,
+                         "reviews":  3245,
+                         "image":  "https://placehold.co/400x400/FFD700/333?text=Baby+Lotion+\u0026",
+                         "images":  [
+                                        "https://placehold.co/400x400/FFD700/333?text=Baby+Lotion+\u0026"
+                                    ],
+                         "description":  "Gentle, tear-free formula enriched with natural ingredients. Perfect gift set for newborns.",
+                         "features":  [
+                                          "Tear-Free",
+                                          "Natural Ingredients",
+                                          "Dermatologist Tested",
+                                          "Paraben-Free"
+                                      ],
+                         "ageRange":  "0-24 months",
+                         "inStock":  true,
+                         "bestseller":  false,
+                         "badges":  [
+                                        "Organic",
+                                        "Sensitive Skin"
+                                    ],
+                         "brand":  "PureTouch"
+                     },
+                     {
+                         "id":  20,
+                         "name":  "Convertible Baby Carrier (4 Positions)",
+                         "category":  "baby-gear",
+                         "price":  3999,
+                         "originalPrice":  5499,
+                         "rating":  4.8,
+                         "reviews":  2134,
+                         "image":  "https://placehold.co/400x400/98D8C8/FFF?text=Convertible+Baby+Carrier",
+                         "images":  [
+                                        "https://placehold.co/400x400/98D8C8/FFF?text=Convertible+Baby+Carrier"
+                                    ],
+                         "description":  "Ergonomic baby carrier with 4 carrying positions. Padded shoulder straps and lumbar support.",
+                         "features":  [
+                                          "4 Positions",
+                                          "Ergonomic Design",
+                                          "Padded Straps",
+                                          "Breathable Mesh"
+                                      ],
+                         "ageRange":  "0-36 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "Ergonomic",
+                                        "Safety Certified"
+                                    ],
+                         "brand":  "CarryComfort"
+                     },
+                     {
+                         "id":  21,
+                         "name":  "Nursery Night Light with Sound Machine",
+                         "category":  "nursery",
+                         "price":  1899,
+                         "originalPrice":  2499,
+                         "rating":  4.9,
+                         "reviews":  1876,
+                         "image":  "https://placehold.co/400x400/FF6B9D/FFF?text=Nursery+Night+Light",
+                         "images":  [
+                                        "https://placehold.co/400x400/FF6B9D/FFF?text=Nursery+Night+Light"
+                                    ],
+                         "description":  "Multi-function night light with white noise machine. Projects stars on ceiling. Timer function included.",
+                         "features":  [
+                                          "Star Projection",
+                                          "White Noise",
+                                          "Timer Function",
+                                          "Adjustable Brightness"
+                                      ],
+                         "ageRange":  "0-60 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "Smart Device"
+                                    ],
+                         "brand":  "DreamLight"
+                     },
+                     {
+                         "id":  22,
+                         "name":  "High Chair with Removable Tray",
+                         "category":  "feeding",
+                         "price":  6499,
+                         "originalPrice":  8999,
+                         "rating":  4.7,
+                         "reviews":  1456,
+                         "image":  "https://placehold.co/400x400/89CFF0/FFF?text=High+Chair+with",
+                         "images":  [
+                                        "https://placehold.co/400x400/89CFF0/FFF?text=High+Chair+with"
+                                    ],
+                         "description":  "Adjustable high chair with removable dishwasher-safe tray. Folds flat for storage. 5-point harness.",
+                         "features":  [
+                                          "Adjustable Height",
+                                          "Removable Tray",
+                                          "Foldable",
+                                          "5-Point Harness"
+                                      ],
+                         "ageRange":  "6-36 months",
+                         "inStock":  true,
+                         "bestseller":  false,
+                         "badges":  [
+                                        "Safety Certified"
+                                    ],
+                         "brand":  "MealMate"
+                     },
+                     {
+                         "id":  23,
+                         "name":  "Baby Sleep Sack (TOG 2.5)",
+                         "category":  "clothing",
+                         "price":  1199,
+                         "originalPrice":  1599,
+                         "rating":  4.8,
+                         "reviews":  2345,
+                         "image":  "https://placehold.co/400x400/FFD700/333?text=Baby+Sleep+Sack",
+                         "images":  [
+                                        "https://placehold.co/400x400/FFD700/333?text=Baby+Sleep+Sack"
+                                    ],
+                         "description":  "Cozy sleep sack to replace loose blankets. Two-way zipper for easy diaper changes. TOG 2.5 for all seasons.",
+                         "features":  [
+                                          "TOG 2.5",
+                                          "Two-Way Zipper",
+                                          "Shoulder Snaps",
+                                          "Organic Cotton"
+                                      ],
+                         "ageRange":  "0-24 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "Organic",
+                                        "Safe Sleep"
+                                    ],
+                         "brand":  "SleepTight"
+                     },
+                     {
+                         "id":  24,
+                         "name":  "Wooden Stacking Rings Toy",
+                         "category":  "toys",
+                         "price":  799,
+                         "originalPrice":  999,
+                         "rating":  4.6,
+                         "reviews":  1234,
+                         "image":  "https://placehold.co/400x400/98D8C8/FFF?text=Wooden+Stacking+Rings",
+                         "images":  [
+                                        "https://placehold.co/400x400/98D8C8/FFF?text=Wooden+Stacking+Rings"
+                                    ],
+                         "description":  "Classic wooden stacking toy promotes hand-eye coordination. Non-toxic paint. Perfect for little hands.",
+                         "features":  [
+                                          "Natural Wood",
+                                          "Non-Toxic Paint",
+                                          "Educational",
+                                          "Hand-Eye Coordination"
+                                      ],
+                         "ageRange":  "6-24 months",
+                         "inStock":  true,
+                         "bestseller":  false,
+                         "badges":  [
+                                        "Educational",
+                                        "Non-Toxic",
+                                        "Eco-Friendly"
+                                    ],
+                         "brand":  "WoodPlay"
+                     },
+                     {
+                         "id":  25,
+                         "name":  "Inflatable Baby Bath Seat",
+                         "category":  "bath-time",
+                         "price":  699,
+                         "originalPrice":  899,
+                         "rating":  4.5,
+                         "reviews":  987,
+                         "image":  "https://placehold.co/400x400/FF6B9D/FFF?text=Inflatable+Baby+Bath",
+                         "images":  [
+                                        "https://placehold.co/400x400/FF6B9D/FFF?text=Inflatable+Baby+Bath"
+                                    ],
+                         "description":  "Portable inflatable bath seat with non-slip surface. Perfect for travel. Compact when deflated.",
+                         "features":  [
+                                          "Inflatable",
+                                          "Non-Slip",
+                                          "Portable",
+                                          "Easy Storage"
+                                      ],
+                         "ageRange":  "3-12 months",
+                         "inStock":  true,
+                         "bestseller":  false,
+                         "badges":  [
+                                        "BPA-Free",
+                                        "Travel Friendly"
+                                    ],
+                         "brand":  "BathBuddy"
+                     },
+                     {
+                         "id":  26,
+                         "name":  "Baby Safety Gates (Set of 2)",
+                         "category":  "health-safety",
+                         "price":  3499,
+                         "originalPrice":  4299,
+                         "rating":  4.7,
+                         "reviews":  1567,
+                         "image":  "https://placehold.co/400x400/89CFF0/FFF?text=Baby+Safety+Gates",
+                         "images":  [
+                                        "https://placehold.co/400x400/89CFF0/FFF?text=Baby+Safety+Gates"
+                                    ],
+                         "description":  "Pressure-mounted safety gates. Easy to install without drilling. Auto-close feature with hold-open option.",
+                         "features":  [
+                                          "Pressure Mount",
+                                          "Auto-Close",
+                                          "No Drilling",
+                                          "Adjustable Width"
+                                      ],
+                         "ageRange":  "6-36 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "Safety Certified"
+                                    ],
+                         "brand":  "GuardWell"
+                     },
+                     {
+                         "id":  27,
+                         "name":  "Natural Baby Powder (Talc-Free)",
+                         "category":  "baby-care",
+                         "price":  499,
+                         "originalPrice":  699,
+                         "rating":  4.6,
+                         "reviews":  2789,
+                         "image":  "https://placehold.co/400x400/FFD700/333?text=Natural+Baby+Powder",
+                         "images":  [
+                                        "https://placehold.co/400x400/FFD700/333?text=Natural+Baby+Powder"
+                                    ],
+                         "description":  "Cornstarch-based talc-free baby powder. Keeps baby dry and comfortable. Gentle lavender scent.",
+                         "features":  [
+                                          "Talc-Free",
+                                          "Natural Ingredients",
+                                          "Gentle Scent",
+                                          "Absorbs Moisture"
+                                      ],
+                         "ageRange":  "0-36 months",
+                         "inStock":  true,
+                         "bestseller":  false,
+                         "badges":  [
+                                        "Natural",
+                                        "Talc-Free"
+                                    ],
+                         "brand":  "PureComfort"
+                     },
+                     {
+                         "id":  28,
+                         "name":  "Baby Bouncer with Vibration",
+                         "category":  "baby-gear",
+                         "price":  4999,
+                         "originalPrice":  6499,
+                         "rating":  4.8,
+                         "reviews":  2134,
+                         "image":  "https://placehold.co/400x400/98D8C8/FFF?text=Baby+Bouncer+with",
+                         "images":  [
+                                        "https://placehold.co/400x400/98D8C8/FFF?text=Baby+Bouncer+with"
+                                    ],
+                         "description":  "Soothing baby bouncer with gentle vibration. Toy bar with plush toys. Removable, washable seat pad.",
+                         "features":  [
+                                          "Gentle Vibration",
+                                          "Toy Bar",
+                                          "Washable Pad",
+                                          "3-Point Harness"
+                                      ],
+                         "ageRange":  "0-12 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "Safety Certified"
+                                    ],
+                         "brand":  "BounceEase"
+                     },
+                     {
+                         "id":  29,
+                         "name":  "Changing Table with Storage Drawers",
+                         "category":  "nursery",
+                         "price":  8999,
+                         "originalPrice":  11999,
+                         "rating":  4.7,
+                         "reviews":  876,
+                         "image":  "https://placehold.co/400x400/FF6B9D/FFF?text=Changing+Table+with",
+                         "images":  [
+                                        "https://placehold.co/400x400/FF6B9D/FFF?text=Changing+Table+with"
+                                    ],
+                         "description":  "Spacious changing table with safety rails and three storage drawers. Converts to regular dresser later.",
+                         "features":  [
+                                          "Safety Rails",
+                                          "3 Drawers",
+                                          "Converts to Dresser",
+                                          "Solid Wood"
+                                      ],
+                         "ageRange":  "0-36 months",
+                         "inStock":  true,
+                         "bestseller":  false,
+                         "badges":  [
+                                        "Convertible",
+                                        "Safety Certified"
+                                    ],
+                         "brand":  "NurseryPro"
+                     },
+                     {
+                         "id":  30,
+                         "name":  "Baby Food Maker (Steam \u0026 Blend)",
+                         "category":  "feeding",
+                         "price":  3999,
+                         "originalPrice":  5499,
+                         "rating":  4.9,
+                         "reviews":  1987,
+                         "image":  "https://placehold.co/400x400/89CFF0/FFF?text=Baby+Food+Maker",
+                         "images":  [
+                                        "https://placehold.co/400x400/89CFF0/FFF?text=Baby+Food+Maker"
+                                    ],
+                         "description":  "All-in-one baby food maker. Steams, blends, and reheats. BPA-free. Makes fresh, healthy baby food at home.",
+                         "features":  [
+                                          "Steam \u0026 Blend",
+                                          "BPA-Free",
+                                          "Easy Clean",
+                                          "Recipe Book Included"
+                                      ],
+                         "ageRange":  "4-24 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "BPA-Free",
+                                        "Mom\u0027s Choice"
+                                    ],
+                         "brand":  "FreshMeals"
+                     },
+                     {
+                         "id":  31,
+                         "name":  "Newborn Photo Prop Set",
+                         "category":  "clothing",
+                         "price":  1299,
+                         "originalPrice":  1699,
+                         "rating":  4.8,
+                         "reviews":  1456,
+                         "image":  "https://placehold.co/400x400/FFD700/333?text=Newborn+Photo+Prop",
+                         "images":  [
+                                        "https://placehold.co/400x400/FFD700/333?text=Newborn+Photo+Prop"
+                                    ],
+                         "description":  "Adorable newborn photo prop set. Includes wraps, headbands, and bonnets. Perfect for memorable photos.",
+                         "features":  [
+                                          "Multiple Props",
+                                          "Soft Materials",
+                                          "Photography Ready",
+                                          "Gift Box"
+                                      ],
+                         "ageRange":  "0-3 months",
+                         "inStock":  true,
+                         "bestseller":  false,
+                         "badges":  [
+                                        "Gift Ready"
+                                    ],
+                         "brand":  "MemoryMakers"
+                     },
+                     {
+                         "id":  32,
+                         "name":  "Baby Activity Cube (6-in-1)",
+                         "category":  "toys",
+                         "price":  2999,
+                         "originalPrice":  3999,
+                         "rating":  4.7,
+                         "reviews":  1234,
+                         "image":  "https://placehold.co/400x400/98D8C8/FFF?text=Baby+Activity+Cube",
+                         "images":  [
+                                        "https://placehold.co/400x400/98D8C8/FFF?text=Baby+Activity+Cube"
+                                    ],
+                         "description":  "Multi-sided activity cube with 6 different activities. Promotes motor skills and cognitive development.",
+                         "features":  [
+                                          "6 Activities",
+                                          "Educational",
+                                          "Durable Wood",
+                                          "Non-Toxic Paint"
+                                      ],
+                         "ageRange":  "12-36 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "Educational",
+                                        "Award Winner"
+                                    ],
+                         "brand":  "LearnPlay"
+                     },
+                     {
+                         "id":  33,
+                         "name":  "Baby Bathrobe (Organic Cotton)",
+                         "category":  "bath-time",
+                         "price":  899,
+                         "originalPrice":  1199,
+                         "rating":  4.6,
+                         "reviews":  987,
+                         "image":  "https://placehold.co/400x400/FF6B9D/FFF?text=Baby+Bathrobe+(Organic",
+                         "images":  [
+                                        "https://placehold.co/400x400/FF6B9D/FFF?text=Baby+Bathrobe+(Organic"
+                                    ],
+                         "description":  "Soft organic cotton bathrobe with cute animal hood. Super absorbent and cozy. Machine washable.",
+                         "features":  [
+                                          "Organic Cotton",
+                                          "Hooded Design",
+                                          "Absorbent",
+                                          "Cute Animal Design"
+                                      ],
+                         "ageRange":  "0-24 months",
+                         "inStock":  true,
+                         "bestseller":  false,
+                         "badges":  [
+                                        "Organic",
+                                        "GOTS Certified"
+                                    ],
+                         "brand":  "CozyWrap"
+                     },
+                     {
+                         "id":  34,
+                         "name":  "Baby Nasal Aspirator (Electric)",
+                         "category":  "health-safety",
+                         "price":  1499,
+                         "originalPrice":  1999,
+                         "rating":  4.8,
+                         "reviews":  2456,
+                         "image":  "https://placehold.co/400x400/89CFF0/FFF?text=Baby+Nasal+Aspirator",
+                         "images":  [
+                                        "https://placehold.co/400x400/89CFF0/FFF?text=Baby+Nasal+Aspirator"
+                                    ],
+                         "description":  "Electric nasal aspirator with adjustable suction. Safe, gentle, and effective. Easy to clean.",
+                         "features":  [
+                                          "Adjustable Suction",
+                                          "Easy Clean",
+                                          "Quiet Operation",
+                                          "Rechargeable"
+                                      ],
+                         "ageRange":  "0-36 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "Pediatrician Recommended",
+                                        "BPA-Free"
+                                    ],
+                         "brand":  "ClearBreath"
+                     },
+                     {
+                         "id":  35,
+                         "name":  "Diaper Rash Cream (Zinc Oxide)",
+                         "category":  "baby-care",
+                         "price":  599,
+                         "originalPrice":  799,
+                         "rating":  4.9,
+                         "reviews":  4321,
+                         "image":  "https://placehold.co/400x400/FFD700/333?text=Diaper+Rash+Cream",
+                         "images":  [
+                                        "https://placehold.co/400x400/FFD700/333?text=Diaper+Rash+Cream"
+                                    ],
+                         "description":  "Maximum strength diaper rash cream with 40% zinc oxide. Fragrance-free. Forms protective barrier.",
+                         "features":  [
+                                          "40% Zinc Oxide",
+                                          "Fragrance-Free",
+                                          "Protective Barrier",
+                                          "Fast Relief"
+                                      ],
+                         "ageRange":  "0-36 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "Pediatrician Recommended",
+                                        "Hypoallergenic"
+                                    ],
+                         "brand":  "BabyGuard"
+                     },
+                     {
+                         "id":  36,
+                         "name":  "Travel System (Stroller + Car Seat)",
+                         "category":  "baby-gear",
+                         "price":  18999,
+                         "originalPrice":  24999,
+                         "rating":  4.9,
+                         "reviews":  1876,
+                         "image":  "https://placehold.co/400x400/98D8C8/FFF?text=Travel+System+(Stroller",
+                         "images":  [
+                                        "https://placehold.co/400x400/98D8C8/FFF?text=Travel+System+(Stroller"
+                                    ],
+                         "description":  "Complete travel system with stroller and car seat. Car seat clicks into stroller base. All-terrain wheels.",
+                         "features":  [
+                                          "2-in-1 System",
+                                          "All-Terrain",
+                                          "One-Click Connection",
+                                          "Large Basket"
+                                      ],
+                         "ageRange":  "0-36 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "Safety Certified",
+                                        "Travel System"
+                                    ],
+                         "brand":  "TravelPro"
+                     },
+                     {
+                         "id":  37,
+                         "name":  "Nursery Glider Chair with Ottoman",
+                         "category":  "nursery",
+                         "price":  12999,
+                         "originalPrice":  16999,
+                         "rating":  4.8,
+                         "reviews":  1234,
+                         "image":  "https://placehold.co/400x400/FF6B9D/FFF?text=Nursery+Glider+Chair",
+                         "images":  [
+                                        "https://placehold.co/400x400/FF6B9D/FFF?text=Nursery+Glider+Chair"
+                                    ],
+                         "description":  "Comfortable glider chair with matching ottoman. Smooth gliding motion. Upholstered in soft, easy-clean fabric.",
+                         "features":  [
+                                          "Smooth Glide",
+                                          "Matching Ottoman",
+                                          "Upholstered",
+                                          "Easy Clean"
+                                      ],
+                         "ageRange":  "0-60 months",
+                         "inStock":  true,
+                         "bestseller":  false,
+                         "badges":  [
+                                        "Comfort Plus"
+                                    ],
+                         "brand":  "ComfortNest"
+                     },
+                     {
+                         "id":  38,
+                         "name":  "Sippy Cup Set (3-Pack, Spill-Proof)",
+                         "category":  "feeding",
+                         "price":  999,
+                         "originalPrice":  1299,
+                         "rating":  4.7,
+                         "reviews":  2789,
+                         "image":  "https://placehold.co/400x400/89CFF0/FFF?text=Sippy+Cup+Set",
+                         "images":  [
+                                        "https://placehold.co/400x400/89CFF0/FFF?text=Sippy+Cup+Set"
+                                    ],
+                         "description":  "Spill-proof sippy cups with soft silicone spout. Easy grip handles. Dishwasher safe. BPA-free.",
+                         "features":  [
+                                          "Spill-Proof",
+                                          "Soft Spout",
+                                          "Easy Grip",
+                                          "BPA-Free"
+                                      ],
+                         "ageRange":  "6-24 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "BPA-Free",
+                                        "Spill-Proof"
+                                    ],
+                         "brand":  "SipSafe"
+                     },
+                     {
+                         "id":  39,
+                         "name":  "Baby Socks Set (12 Pairs)",
+                         "category":  "clothing",
+                         "price":  699,
+                         "originalPrice":  899,
+                         "rating":  4.6,
+                         "reviews":  3456,
+                         "image":  "https://placehold.co/400x400/FFD700/333?text=Baby+Socks+Set",
+                         "images":  [
+                                        "https://placehold.co/400x400/FFD700/333?text=Baby+Socks+Set"
+                                    ],
+                         "description":  "Soft cotton baby socks with non-slip grips. Stay-on design. Adorable prints and colors.",
+                         "features":  [
+                                          "Non-Slip Grips",
+                                          "Stay-On Design",
+                                          "Soft Cotton",
+                                          "12 Pairs"
+                                      ],
+                         "ageRange":  "0-12 months",
+                         "inStock":  true,
+                         "bestseller":  false,
+                         "badges":  [
+                                        "Value Pack"
+                                    ],
+                         "brand":  "TinyToes"
+                     },
+                     {
+                         "id":  40,
+                         "name":  "Sensory Ball Set (6 Textured Balls)",
+                         "category":  "toys",
+                         "price":  1199,
+                         "originalPrice":  1599,
+                         "rating":  4.8,
+                         "reviews":  1876,
+                         "image":  "https://placehold.co/400x400/98D8C8/FFF?text=Sensory+Ball+Set",
+                         "images":  [
+                                        "https://placehold.co/400x400/98D8C8/FFF?text=Sensory+Ball+Set"
+                                    ],
+                         "description":  "Set of 6 textured sensory balls. Different colors, textures, and sounds. Promotes sensory development.",
+                         "features":  [
+                                          "6 Balls",
+                                          "Different Textures",
+                                          "Sensory Development",
+                                          "BPA-Free"
+                                      ],
+                         "ageRange":  "3-24 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "Educational",
+                                        "Sensory Play"
+                                    ],
+                         "brand":  "SensePlay"
+                     },
+                     {
+                         "id":  41,
+                         "name":  "Baby Shampoo \u0026 Body Wash (2-in-1)",
+                         "category":  "bath-time",
+                         "price":  799,
+                         "originalPrice":  999,
+                         "rating":  4.7,
+                         "reviews":  2134,
+                         "image":  "https://placehold.co/400x400/FF6B9D/FFF?text=Baby+Shampoo+\u0026",
+                         "images":  [
+                                        "https://placehold.co/400x400/FF6B9D/FFF?text=Baby+Shampoo+\u0026"
+                                    ],
+                         "description":  "Gentle 2-in-1 shampoo and body wash. Tear-free formula with natural ingredients. Light lavender scent.",
+                         "features":  [
+                                          "2-in-1 Formula",
+                                          "Tear-Free",
+                                          "Natural Ingredients",
+                                          "Gentle Scent"
+                                      ],
+                         "ageRange":  "0-36 months",
+                         "inStock":  true,
+                         "bestseller":  false,
+                         "badges":  [
+                                        "Tear-Free",
+                                        "Natural"
+                                    ],
+                         "brand":  "GentleWash"
+                     },
+                     {
+                         "id":  42,
+                         "name":  "Baby Proofing Complete Kit (50 Pieces)",
+                         "category":  "health-safety",
+                         "price":  2499,
+                         "originalPrice":  3299,
+                         "rating":  4.8,
+                         "reviews":  1567,
+                         "image":  "https://placehold.co/400x400/89CFF0/FFF?text=Baby+Proofing+Complete",
+                         "images":  [
+                                        "https://placehold.co/400x400/89CFF0/FFF?text=Baby+Proofing+Complete"
+                                    ],
+                         "description":  "Complete baby proofing kit with outlet covers, cabinet locks, corner guards, and more. Easy installation.",
+                         "features":  [
+                                          "50 Pieces",
+                                          "Easy Install",
+                                          "Complete Protection",
+                                          "Strong Adhesive"
+                                      ],
+                         "ageRange":  "6-36 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "Safety Complete",
+                                        "Value Pack"
+                                    ],
+                         "brand":  "SafeHome"
+                     },
+                     {
+                         "id":  43,
+                         "name":  "Baby Massage Oil (Organic)",
+                         "category":  "baby-care",
+                         "price":  699,
+                         "originalPrice":  899,
+                         "rating":  4.9,
+                         "reviews":  2345,
+                         "image":  "https://placehold.co/400x400/FFD700/333?text=Baby+Massage+Oil",
+                         "images":  [
+                                        "https://placehold.co/400x400/FFD700/333?text=Baby+Massage+Oil"
+                                    ],
+                         "description":  "Organic baby massage oil with lavender and chamomile. Moisturizes and soothes. Cold-pressed formula.",
+                         "features":  [
+                                          "Organic",
+                                          "Lavender \u0026 Chamomile",
+                                          "Cold-Pressed",
+                                          "Moisturizing"
+                                      ],
+                         "ageRange":  "0-36 months",
+                         "inStock":  true,
+                         "bestseller":  false,
+                         "badges":  [
+                                        "Organic",
+                                        "Natural"
+                                    ],
+                         "brand":  "TenderTouch"
+                     },
+                     {
+                         "id":  44,
+                         "name":  "Baby Swing with Music \u0026 Lights",
+                         "category":  "baby-gear",
+                         "price":  7999,
+                         "originalPrice":  10999,
+                         "rating":  4.7,
+                         "reviews":  1456,
+                         "image":  "https://placehold.co/400x400/98D8C8/FFF?text=Baby+Swing+with",
+                         "images":  [
+                                        "https://placehold.co/400x400/98D8C8/FFF?text=Baby+Swing+with"
+                                    ],
+                         "description":  "Motorized baby swing with multiple speeds. Built-in music and lights. Plush seat with toy bar.",
+                         "features":  [
+                                          "Multiple Speeds",
+                                          "Music \u0026 Lights",
+                                          "Toy Bar",
+                                          "Plush Seat"
+                                      ],
+                         "ageRange":  "0-12 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "Soothing",
+                                        "Safety Certified"
+                                    ],
+                         "brand":  "SwingDreams"
+                     },
+                     {
+                         "id":  45,
+                         "name":  "Wall Decals for Nursery (Animals Theme)",
+                         "category":  "nursery",
+                         "price":  1299,
+                         "originalPrice":  1699,
+                         "rating":  4.6,
+                         "reviews":  987,
+                         "image":  "https://placehold.co/400x400/FF6B9D/FFF?text=Wall+Decals+for",
+                         "images":  [
+                                        "https://placehold.co/400x400/FF6B9D/FFF?text=Wall+Decals+for"
+                                    ],
+                         "description":  "Removable wall decals with adorable animal designs. Easy to apply and remove. Non-toxic adhesive.",
+                         "features":  [
+                                          "Removable",
+                                          "Animal Theme",
+                                          "Easy Application",
+                                          "Non-Toxic"
+                                      ],
+                         "ageRange":  "0-60 months",
+                         "inStock":  true,
+                         "bestseller":  false,
+                         "badges":  [
+                                        "Non-Toxic",
+                                        "Easy Install"
+                                    ],
+                         "brand":  "WallWonders"
+                     },
+                     {
+                         "id":  46,
+                         "name":  "Baby Bibs Set (10-Pack, Waterproof)",
+                         "category":  "feeding",
+                         "price":  899,
+                         "originalPrice":  1199,
+                         "rating":  4.8,
+                         "reviews":  3245,
+                         "image":  "https://placehold.co/400x400/89CFF0/FFF?text=Baby+Bibs+Set",
+                         "images":  [
+                                        "https://placehold.co/400x400/89CFF0/FFF?text=Baby+Bibs+Set"
+                                    ],
+                         "description":  "Waterproof bibs with food-catching pocket. Adjustable neck closure. Easy to wipe clean.",
+                         "features":  [
+                                          "Waterproof",
+                                          "Catch Pocket",
+                                          "Adjustable",
+                                          "10-Pack"
+                                      ],
+                         "ageRange":  "4-24 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "Waterproof",
+                                        "Easy Clean"
+                                    ],
+                         "brand":  "MealTime"
+                     },
+                     {
+                         "id":  47,
+                         "name":  "Baby Booties (Handmade Knit, 2-Pack)",
+                         "category":  "clothing",
+                         "price":  799,
+                         "originalPrice":  999,
+                         "rating":  4.7,
+                         "reviews":  1234,
+                         "image":  "https://placehold.co/400x400/FFD700/333?text=Baby+Booties+(Handmade",
+                         "images":  [
+                                        "https://placehold.co/400x400/FFD700/333?text=Baby+Booties+(Handmade"
+                                    ],
+                         "description":  "Handmade knit baby booties. Soft, warm, and cozy. Stay-on design with adjustable ties.",
+                         "features":  [
+                                          "Handmade",
+                                          "Soft Knit",
+                                          "Stay-On Design",
+                                          "2-Pack"
+                                      ],
+                         "ageRange":  "0-6 months",
+                         "inStock":  true,
+                         "bestseller":  false,
+                         "badges":  [
+                                        "Handmade",
+                                        "Artisan"
+                                    ],
+                         "brand":  "KnitLove"
+                     },
+                     {
+                         "id":  48,
+                         "name":  "Baby Piano Keyboard Toy",
+                         "category":  "toys",
+                         "price":  1999,
+                         "originalPrice":  2599,
+                         "rating":  4.8,
+                         "reviews":  1987,
+                         "image":  "https://placehold.co/400x400/98D8C8/FFF?text=Baby+Piano+Keyboard",
+                         "images":  [
+                                        "https://placehold.co/400x400/98D8C8/FFF?text=Baby+Piano+Keyboard"
+                                    ],
+                         "description":  "Musical keyboard toy with lights and animal sounds. Introduces music and rhythm. Volume control.",
+                         "features":  [
+                                          "Musical",
+                                          "Light Effects",
+                                          "Animal Sounds",
+                                          "Volume Control"
+                                      ],
+                         "ageRange":  "6-36 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "Educational",
+                                        "Musical"
+                                    ],
+                         "brand":  "MusicKids"
+                     },
+                     {
+                         "id":  49,
+                         "name":  "Baby Bath Toys Set (8 Pieces)",
+                         "category":  "bath-time",
+                         "price":  699,
+                         "originalPrice":  899,
+                         "rating":  4.6,
+                         "reviews":  2456,
+                         "image":  "https://placehold.co/400x400/FF6B9D/FFF?text=Baby+Bath+Toys",
+                         "images":  [
+                                        "https://placehold.co/400x400/FF6B9D/FFF?text=Baby+Bath+Toys"
+                                    ],
+                         "description":  "Colorful bath toys including squirters, boats, and stacking cups. BPA-free and mold-resistant.",
+                         "features":  [
+                                          "8 Pieces",
+                                          "BPA-Free",
+                                          "Mold-Resistant",
+                                          "Colorful"
+                                      ],
+                         "ageRange":  "6-36 months",
+                         "inStock":  true,
+                         "bestseller":  false,
+                         "badges":  [
+                                        "BPA-Free",
+                                        "Bath Fun"
+                                    ],
+                         "brand":  "SplashPlay"
+                     },
+                     {
+                         "id":  50,
+                         "name":  "Baby Humidifier with Night Light",
+                         "category":  "health-safety",
+                         "price":  3499,
+                         "originalPrice":  4599,
+                         "rating":  4.9,
+                         "reviews":  2134,
+                         "image":  "https://placehold.co/400x400/89CFF0/FFF?text=Baby+Humidifier+with",
+                         "images":  [
+                                        "https://placehold.co/400x400/89CFF0/FFF?text=Baby+Humidifier+with"
+                                    ],
+                         "description":  "Cool mist humidifier with color-changing night light. Quiet operation. Auto shut-off. Large capacity.",
+                         "features":  [
+                                          "Cool Mist",
+                                          "Night Light",
+                                          "Quiet",
+                                          "Auto Shut-Off"
+                                      ],
+                         "ageRange":  "0-60 months",
+                         "inStock":  true,
+                         "bestseller":  true,
+                         "badges":  [
+                                        "Quiet Operation",
+                                        "Safe Sleep"
+                                    ],
+                         "brand":  "HealthyAir"
+                     }
+                 ]
+}

@@ -1,0 +1,15 @@
+<!-- Placeholder icon - 192x192 -->
+<svg width="192" height="192" viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="192" height="192" rx="42" fill="url(#gradient)"/>
+  <path d="M96 52C74.088 52 56 70.088 56 92C56 113.912 74.088 132 96 132C117.912 132 136 113.912 136 92C136 70.088 117.912 52 96 52ZM96 116C83.296 116 72 104.704 72 92C72 79.296 83.296 68 96 68C108.704 68 120 79.296 120 92C120 104.704 108.704 116 96 116Z" fill="white"/>
+  <circle cx="96" cy="86" r="8" fill="white"/>
+  <circle cx="86" cy="102" r="5" fill="white"/>
+  <circle cx="106" cy="102" r="5" fill="white"/>
+  <path d="M86 110C86 110 90 116 96 116C102 116 106 110 106 110" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="192" y2="192">
+      <stop offset="0%" stop-color="#FF6B9D"/>
+      <stop offset="100%" stop-color="#89CFF0"/>
+    </linearGradient>
+  </defs>
+</svg>
